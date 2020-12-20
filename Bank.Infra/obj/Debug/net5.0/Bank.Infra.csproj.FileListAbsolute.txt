@@ -1,0 +1,12 @@
+/Users/leonardoguarilha/Desktop/Bank/Bank.Infra/bin/Debug/net5.0/Bank.Infra.deps.json
+/Users/leonardoguarilha/Desktop/Bank/Bank.Infra/bin/Debug/net5.0/Bank.Infra.dll
+/Users/leonardoguarilha/Desktop/Bank/Bank.Infra/bin/Debug/net5.0/ref/Bank.Infra.dll
+/Users/leonardoguarilha/Desktop/Bank/Bank.Infra/bin/Debug/net5.0/Bank.Infra.pdb
+/Users/leonardoguarilha/Desktop/Bank/Bank.Infra/obj/Debug/net5.0/Bank.Infra.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leonardoguarilha/Desktop/Bank/Bank.Infra/obj/Debug/net5.0/Bank.Infra.AssemblyInfoInputs.cache
+/Users/leonardoguarilha/Desktop/Bank/Bank.Infra/obj/Debug/net5.0/Bank.Infra.AssemblyInfo.cs
+/Users/leonardoguarilha/Desktop/Bank/Bank.Infra/obj/Debug/net5.0/Bank.Infra.csproj.CoreCompileInputs.cache
+/Users/leonardoguarilha/Desktop/Bank/Bank.Infra/obj/Debug/net5.0/Bank.Infra.dll
+/Users/leonardoguarilha/Desktop/Bank/Bank.Infra/obj/Debug/net5.0/ref/Bank.Infra.dll
+/Users/leonardoguarilha/Desktop/Bank/Bank.Infra/obj/Debug/net5.0/Bank.Infra.pdb
+/Users/leonardoguarilha/Desktop/Bank/Bank.Infra/obj/Debug/net5.0/Bank.Infra.csprojAssemblyReference.cache

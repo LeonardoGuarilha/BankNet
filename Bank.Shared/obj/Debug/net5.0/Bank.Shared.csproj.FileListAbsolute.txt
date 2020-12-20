@@ -1,0 +1,12 @@
+/Users/leonardoguarilha/Desktop/Bank/Bank.Shared/bin/Debug/net5.0/Bank.Shared.deps.json
+/Users/leonardoguarilha/Desktop/Bank/Bank.Shared/bin/Debug/net5.0/Bank.Shared.dll
+/Users/leonardoguarilha/Desktop/Bank/Bank.Shared/bin/Debug/net5.0/ref/Bank.Shared.dll
+/Users/leonardoguarilha/Desktop/Bank/Bank.Shared/bin/Debug/net5.0/Bank.Shared.pdb
+/Users/leonardoguarilha/Desktop/Bank/Bank.Shared/obj/Debug/net5.0/Bank.Shared.csprojAssemblyReference.cache
+/Users/leonardoguarilha/Desktop/Bank/Bank.Shared/obj/Debug/net5.0/Bank.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leonardoguarilha/Desktop/Bank/Bank.Shared/obj/Debug/net5.0/Bank.Shared.AssemblyInfoInputs.cache
+/Users/leonardoguarilha/Desktop/Bank/Bank.Shared/obj/Debug/net5.0/Bank.Shared.AssemblyInfo.cs
+/Users/leonardoguarilha/Desktop/Bank/Bank.Shared/obj/Debug/net5.0/Bank.Shared.csproj.CoreCompileInputs.cache
+/Users/leonardoguarilha/Desktop/Bank/Bank.Shared/obj/Debug/net5.0/Bank.Shared.dll
+/Users/leonardoguarilha/Desktop/Bank/Bank.Shared/obj/Debug/net5.0/ref/Bank.Shared.dll
+/Users/leonardoguarilha/Desktop/Bank/Bank.Shared/obj/Debug/net5.0/Bank.Shared.pdb

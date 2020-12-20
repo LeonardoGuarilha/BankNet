@@ -1,0 +1,15 @@
+/Users/leonardoguarilha/Desktop/Bank/Bank.Domain/bin/Debug/net5.0/Bank.Domain.deps.json
+/Users/leonardoguarilha/Desktop/Bank/Bank.Domain/bin/Debug/net5.0/Bank.Domain.dll
+/Users/leonardoguarilha/Desktop/Bank/Bank.Domain/bin/Debug/net5.0/ref/Bank.Domain.dll
+/Users/leonardoguarilha/Desktop/Bank/Bank.Domain/bin/Debug/net5.0/Bank.Domain.pdb
+/Users/leonardoguarilha/Desktop/Bank/Bank.Domain/obj/Debug/net5.0/Bank.Domain.csprojAssemblyReference.cache
+/Users/leonardoguarilha/Desktop/Bank/Bank.Domain/obj/Debug/net5.0/Bank.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leonardoguarilha/Desktop/Bank/Bank.Domain/obj/Debug/net5.0/Bank.Domain.AssemblyInfoInputs.cache
+/Users/leonardoguarilha/Desktop/Bank/Bank.Domain/obj/Debug/net5.0/Bank.Domain.AssemblyInfo.cs
+/Users/leonardoguarilha/Desktop/Bank/Bank.Domain/obj/Debug/net5.0/Bank.Domain.csproj.CoreCompileInputs.cache
+/Users/leonardoguarilha/Desktop/Bank/Bank.Domain/obj/Debug/net5.0/Bank.Domain.dll
+/Users/leonardoguarilha/Desktop/Bank/Bank.Domain/obj/Debug/net5.0/ref/Bank.Domain.dll
+/Users/leonardoguarilha/Desktop/Bank/Bank.Domain/obj/Debug/net5.0/Bank.Domain.pdb
+/Users/leonardoguarilha/Desktop/Bank/Bank.Domain/bin/Debug/net5.0/Bank.Shared.dll
+/Users/leonardoguarilha/Desktop/Bank/Bank.Domain/bin/Debug/net5.0/Bank.Shared.pdb
+/Users/leonardoguarilha/Desktop/Bank/Bank.Domain/obj/Debug/net5.0/Bank.Domain.csproj.CopyComplete

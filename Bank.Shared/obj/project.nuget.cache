@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bvDcWqdjERzK/vzZFpWMoUWYJBVeOzh9Y2+VFT9VjKiApWAxJ6Pu1I7zoDZMv989juaALI0YGnZS0KsrIx1njw==",
+  "success": true,
+  "projectFilePath": "/Users/leonardoguarilha/Desktop/Bank/Bank.Shared/Bank.Shared.csproj",
+  "expectedPackageFiles": [
+    "/Users/leonardoguarilha/.nuget/packages/flunt/1.0.5/flunt.1.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
