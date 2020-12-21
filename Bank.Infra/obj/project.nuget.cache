@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "7nwhxCSKXfelqnq3TJ1J3hjr6PkfZxPzg7WT8DNwVOORgy5KfatlP/l+RAS4fh3wOMSh14/9VXxrvyym6WKjKA==",
+  "dgSpecHash": "S2TAstHf3jZHKADqxe3fHUntSwLwh9K2+GKXtmNOvb4XpCijaRmaWuB5MErBejy+xhvLQH2O01eoce9Rg2f9JA==",
   "success": true,
   "projectFilePath": "/Users/leonardoguarilha/Desktop/Bank/Bank.Infra/Bank.Infra.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/leonardoguarilha/.nuget/packages/dapper/2.0.78/dapper.2.0.78.nupkg.sha512",
+    "/Users/leonardoguarilha/.nuget/packages/flunt/1.0.5/flunt.1.0.5.nupkg.sha512",
+    "/Users/leonardoguarilha/.nuget/packages/npgsql/5.0.1.1/npgsql.5.0.1.1.nupkg.sha512",
+    "/Users/leonardoguarilha/.nuget/packages/system.runtime.compilerservices.unsafe/4.6.0/system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -3,7 +3,7 @@ using Bank.Domain.CustomerContext.Queries;
 
 namespace Bank.Domain.CustomerContext.Repository
 {
-    public interface ICustomeRepository
+    public interface ICustomerRepository
     {
         void Save(Customer customer);
 

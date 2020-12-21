@@ -14,7 +14,14 @@
     },
     "frameworks": {
       "netcoreapp5.0": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/Users/leonardoguarilha/Desktop/Bank/Bank.Domain/Bank.Domain.csproj": {
+            "projectPath": "/Users/leonardoguarilha/Desktop/Bank/Bank.Domain/Bank.Domain.csproj"
+          },
+          "/Users/leonardoguarilha/Desktop/Bank/Bank.Shared/Bank.Shared.csproj": {
+            "projectPath": "/Users/leonardoguarilha/Desktop/Bank/Bank.Shared/Bank.Shared.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -25,6 +32,16 @@
   },
   "frameworks": {
     "netcoreapp5.0": {
+      "dependencies": {
+        "Dapper": {
+          "target": "Package",
+          "version": "[2.0.78, )"
+        },
+        "Npgsql": {
+          "target": "Package",
+          "version": "[5.0.1.1, )"
+        }
+      },
       "imports": [
         "net461",
         "net462",

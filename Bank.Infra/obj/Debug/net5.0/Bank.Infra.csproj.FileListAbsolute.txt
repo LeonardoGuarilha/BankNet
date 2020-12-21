@@ -10,3 +10,8 @@
 /Users/leonardoguarilha/Desktop/Bank/Bank.Infra/obj/Debug/net5.0/ref/Bank.Infra.dll
 /Users/leonardoguarilha/Desktop/Bank/Bank.Infra/obj/Debug/net5.0/Bank.Infra.pdb
 /Users/leonardoguarilha/Desktop/Bank/Bank.Infra/obj/Debug/net5.0/Bank.Infra.csprojAssemblyReference.cache
+/Users/leonardoguarilha/Desktop/Bank/Bank.Infra/bin/Debug/net5.0/Bank.Domain.dll
+/Users/leonardoguarilha/Desktop/Bank/Bank.Infra/bin/Debug/net5.0/Bank.Shared.dll
+/Users/leonardoguarilha/Desktop/Bank/Bank.Infra/bin/Debug/net5.0/Bank.Domain.pdb
+/Users/leonardoguarilha/Desktop/Bank/Bank.Infra/bin/Debug/net5.0/Bank.Shared.pdb
+/Users/leonardoguarilha/Desktop/Bank/Bank.Infra/obj/Debug/net5.0/Bank.Infra.csproj.CopyComplete

@@ -13,9 +13,9 @@ namespace Bank.Domain.CustomerContext.Commands.Handler
         Notifiable,
         ICommandHandler<CreateCustomerCommand>
     {
-        private readonly ICustomeRepository _repository;
+        private readonly ICustomerRepository _repository;
 
-        public CreateCustomerHandler(ICustomeRepository repository)
+        public CreateCustomerHandler(ICustomerRepository repository)
         {
             _repository = repository;
         }
