@@ -25,7 +25,17 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/leonardoguarilha/Desktop/Bank/Bank.Domain/Bank.Domain.csproj": {
+                "projectPath": "/Users/leonardoguarilha/Desktop/Bank/Bank.Domain/Bank.Domain.csproj"
+              },
+              "/Users/leonardoguarilha/Desktop/Bank/Bank.Infra/Bank.Infra.csproj": {
+                "projectPath": "/Users/leonardoguarilha/Desktop/Bank/Bank.Infra/Bank.Infra.csproj"
+              },
+              "/Users/leonardoguarilha/Desktop/Bank/Bank.Shared/Bank.Shared.csproj": {
+                "projectPath": "/Users/leonardoguarilha/Desktop/Bank/Bank.Shared/Bank.Shared.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -71,6 +81,195 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/leonardoguarilha/Desktop/Bank/Bank.Domain/Bank.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leonardoguarilha/Desktop/Bank/Bank.Domain/Bank.Domain.csproj",
+        "projectName": "Bank.Domain",
+        "projectPath": "/Users/leonardoguarilha/Desktop/Bank/Bank.Domain/Bank.Domain.csproj",
+        "packagesPath": "/Users/leonardoguarilha/.nuget/packages/",
+        "outputPath": "/Users/leonardoguarilha/Desktop/Bank/Bank.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leonardoguarilha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/leonardoguarilha/Desktop/Bank/Bank.Shared/Bank.Shared.csproj": {
+                "projectPath": "/Users/leonardoguarilha/Desktop/Bank/Bank.Shared/Bank.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "flunt": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/leonardoguarilha/Desktop/Bank/Bank.Infra/Bank.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leonardoguarilha/Desktop/Bank/Bank.Infra/Bank.Infra.csproj",
+        "projectName": "Bank.Infra",
+        "projectPath": "/Users/leonardoguarilha/Desktop/Bank/Bank.Infra/Bank.Infra.csproj",
+        "packagesPath": "/Users/leonardoguarilha/.nuget/packages/",
+        "outputPath": "/Users/leonardoguarilha/Desktop/Bank/Bank.Infra/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leonardoguarilha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/leonardoguarilha/Desktop/Bank/Bank.Domain/Bank.Domain.csproj": {
+                "projectPath": "/Users/leonardoguarilha/Desktop/Bank/Bank.Domain/Bank.Domain.csproj"
+              },
+              "/Users/leonardoguarilha/Desktop/Bank/Bank.Shared/Bank.Shared.csproj": {
+                "projectPath": "/Users/leonardoguarilha/Desktop/Bank/Bank.Shared/Bank.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/leonardoguarilha/Desktop/Bank/Bank.Shared/Bank.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leonardoguarilha/Desktop/Bank/Bank.Shared/Bank.Shared.csproj",
+        "projectName": "Bank.Shared",
+        "projectPath": "/Users/leonardoguarilha/Desktop/Bank/Bank.Shared/Bank.Shared.csproj",
+        "packagesPath": "/Users/leonardoguarilha/.nuget/packages/",
+        "outputPath": "/Users/leonardoguarilha/Desktop/Bank/Bank.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leonardoguarilha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "flunt": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

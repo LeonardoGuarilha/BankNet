@@ -34,3 +34,12 @@
 /Users/leonardoguarilha/Desktop/Bank/Bank.Api/obj/Debug/net5.0/ref/Bank.Api.dll
 /Users/leonardoguarilha/Desktop/Bank/Bank.Api/obj/Debug/net5.0/Bank.Api.pdb
 /Users/leonardoguarilha/Desktop/Bank/Bank.Api/obj/Debug/net5.0/Bank.Api.genruntimeconfig.cache
+/Users/leonardoguarilha/Desktop/Bank/Bank.Api/bin/Debug/net5.0/Dapper.dll
+/Users/leonardoguarilha/Desktop/Bank/Bank.Api/bin/Debug/net5.0/Flunt.dll
+/Users/leonardoguarilha/Desktop/Bank/Bank.Api/bin/Debug/net5.0/Npgsql.dll
+/Users/leonardoguarilha/Desktop/Bank/Bank.Api/bin/Debug/net5.0/Bank.Domain.dll
+/Users/leonardoguarilha/Desktop/Bank/Bank.Api/bin/Debug/net5.0/Bank.Infra.dll
+/Users/leonardoguarilha/Desktop/Bank/Bank.Api/bin/Debug/net5.0/Bank.Shared.dll
+/Users/leonardoguarilha/Desktop/Bank/Bank.Api/bin/Debug/net5.0/Bank.Domain.pdb
+/Users/leonardoguarilha/Desktop/Bank/Bank.Api/bin/Debug/net5.0/Bank.Infra.pdb
+/Users/leonardoguarilha/Desktop/Bank/Bank.Api/bin/Debug/net5.0/Bank.Shared.pdb

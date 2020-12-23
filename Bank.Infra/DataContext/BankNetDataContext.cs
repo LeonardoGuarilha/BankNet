@@ -5,12 +5,12 @@ using Npgsql;
 
 namespace Bank.Infra.DataContext
 {
-    public class NetBankDataContext : IDisposable
+    public class BankNetDataContext : IDisposable
     {
         
         public NpgsqlConnection Connection { get; set; }
 
-        public NetBankDataContext()
+        public BankNetDataContext()
         {
             Connection = new NpgsqlConnection(Configurations.ConnectionString);
             Connection.Open();

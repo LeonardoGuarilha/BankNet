@@ -2,6 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Bank.Domain.CustomerContext.Commands.Handler;
+using Bank.Domain.CustomerContext.Repository;
+using Bank.Infra.DataContext;
+using Bank.Infra.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,6 +32,12 @@ namespace Bank.Api
         {
 
             services.AddControllers();
+
+            services.AddScoped<BankNetDataContext, BankNetDataContext>();
+            services.AddTransient<ICustomerRepository, CustomerRepository>();
+            services.AddTransient<IAddressRepository, AddressRepository>();
+            services.AddTransient<CreateCustomerHandler, CreateCustomerHandler>();
+            
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Bank.Api", Version = "v1" });
@@ -44,7 +54,7 @@ namespace Bank.Api
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Bank.Api v1"));
             }
 
-            app.UseHttpsRedirection();
+            // app.UseHttpsRedirection();
 
             app.UseRouting();
 

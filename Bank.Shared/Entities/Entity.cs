@@ -7,7 +7,7 @@ namespace Bank.Shared.Entities
     {
         public Entity()
         {
-            Id = Guid.NewGuid().ToString().Replace("-", "").ToUpper();
+            Id = Guid.NewGuid().ToString().Replace("-", "").ToUpper().Substring(1, 8);
         }
         public string Id { get; private set; }
         

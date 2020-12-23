@@ -7,16 +7,17 @@ namespace Bank.Domain.CustomerContext.Entities
 {
     public class Customer : Entity
     {
-        public Customer(Name name, Email email, string password, Address address, Document document, string accountNumber)
+        public Customer(Name name, Email email, string password, string addressId, Document document, string accountNumber)
         {
             Name = name;
             Email = email;
             Password = HashPassword(password);
-            Address = address;
+            AddressId = addressId;
             Document = document;
             AccountNumber = accountNumber;
             
             AddNotifications(new Contract()
+                .Requires()
                 .Requires()
                 .IsNotNullOrEmpty(Password, "Password", "A senha não pode ser vazia")
                 .IsNotNullOrEmpty(AccountNumber, "AccountNumber", "Numero da conta não pode ser vazio.")
@@ -27,7 +28,7 @@ namespace Bank.Domain.CustomerContext.Entities
         public Email Email { get; private set; }
         public string Password { get; private set; }
         public Document Document { get; private set; }
-        public Address Address { get; private set; }
+        public string AddressId { get; private set; }
         public string AccountNumber { get; private set; }
         
         public bool Authenticate(string email, string password)

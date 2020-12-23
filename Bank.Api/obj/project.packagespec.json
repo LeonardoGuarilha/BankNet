@@ -14,7 +14,17 @@
     },
     "frameworks": {
       "netcoreapp5.0": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/Users/leonardoguarilha/Desktop/Bank/Bank.Domain/Bank.Domain.csproj": {
+            "projectPath": "/Users/leonardoguarilha/Desktop/Bank/Bank.Domain/Bank.Domain.csproj"
+          },
+          "/Users/leonardoguarilha/Desktop/Bank/Bank.Infra/Bank.Infra.csproj": {
+            "projectPath": "/Users/leonardoguarilha/Desktop/Bank/Bank.Infra/Bank.Infra.csproj"
+          },
+          "/Users/leonardoguarilha/Desktop/Bank/Bank.Shared/Bank.Shared.csproj": {
+            "projectPath": "/Users/leonardoguarilha/Desktop/Bank/Bank.Shared/Bank.Shared.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

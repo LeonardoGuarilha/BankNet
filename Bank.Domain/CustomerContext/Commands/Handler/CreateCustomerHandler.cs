@@ -14,10 +14,12 @@ namespace Bank.Domain.CustomerContext.Commands.Handler
         ICommandHandler<CreateCustomerCommand>
     {
         private readonly ICustomerRepository _repository;
+        private readonly IAddressRepository _address;
 
-        public CreateCustomerHandler(ICustomerRepository repository)
+        public CreateCustomerHandler(ICustomerRepository repository, IAddressRepository address)
         {
             _repository = repository;
+            _address = address;
         }
 
         public ICommandResult Handle(CreateCustomerCommand command)
@@ -39,9 +41,9 @@ namespace Bank.Domain.CustomerContext.Commands.Handler
             var address = new Address(command.Street, command.Number, command.Complement,command.District, command.City, 
                 command.State, command.Country, command.ZipCode);
             
-            var account = new Account(Configurations.BankNumber, 0);
+            var account = new Account(Configurations.BankNumber, 0m);
 
-            var customer = new Customer(name, email, command.Password, address, document, account.AccountNumber);
+            var customer = new Customer(name, email, command.Password, address.Id, document, account.AccountNumber);
 
             // Validar entidades e VOs
             AddNotifications(name, document, email, address, account, customer);
@@ -53,11 +55,13 @@ namespace Bank.Domain.CustomerContext.Commands.Handler
                     "Erro ao cadastrar o cliente",
                     new
                     {
+                        // Verificar mensagens
                         message = customer.Notifications, address.Notifications
                     });
             
             // Persistir o customer e o address
-            _repository.Save(customer);
+            _address.Save(address);
+            _repository.Save(customer, address.Id);
             
             // Retornar o resultado para a tela, com a padronização
             return new GenericCommandResult(

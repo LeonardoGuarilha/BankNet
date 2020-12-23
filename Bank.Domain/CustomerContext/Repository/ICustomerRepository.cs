@@ -5,7 +5,7 @@ namespace Bank.Domain.CustomerContext.Repository
 {
     public interface ICustomerRepository
     {
-        void Save(Customer customer);
+        void Save(Customer customer, string addressId);
 
         GetDocumentQueryResult CheckDocument(string document);
 
